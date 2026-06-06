@@ -1,19 +1,12 @@
-
 import streamlit as st
 from openai import OpenAI
 import datetime
 
 st.set_page_config(
-    page_title="Agentic Healthcare Assistant using Gradio MBA",
+    page_title="Agentic Healthcare Assistant using Streamlit MBA",
     page_icon="🩺",
     layout="wide"
 )
-
-if "OPENAI_API_KEY" not in st.secrets:
-    st.error("OPENAI_API_KEY is missing.")
-    st.write("Add your OpenAI API key in Streamlit Cloud under Settings > Secrets.")
-    st.code('OPENAI_API_KEY = "your-api-key-here"')
-    st.stop()
 
 with st.sidebar:
     st.header("Configuration")
