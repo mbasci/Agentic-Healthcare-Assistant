@@ -1,1 +1,8 @@
 streamlit\nopenai
+streamlit
+openai
+pandas
+langchain
+langchain-openai
+chromadb
+tiktoken
