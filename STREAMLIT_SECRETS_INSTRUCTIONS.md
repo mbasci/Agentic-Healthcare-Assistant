@@ -1,0 +1,1 @@
+# Streamlit Secrets Instructions\n\nDo not place your OpenAI API key inside app.py.\n\nIn Streamlit Cloud:\n\n1. Open your deployed app.\n2. Go to Settings > Secrets.\n3. Add the following line:\n\nOPENAI_API_KEY = "your-api-key-here"\n\n4. Save.\n5. Restart the app.

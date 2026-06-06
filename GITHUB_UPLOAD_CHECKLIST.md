@@ -1,0 +1,1 @@
+# GitHub Upload Checklist\n\nUpload these files to GitHub:\n\n- app.py\n- requirements.txt\n- README.md\n- .gitignore\n- STREAMLIT_SECRETS_INSTRUCTIONS.md\n\nOptional:\n- PROJECT_REPORT.md\n\nDo not upload:\n\n- real API keys\n- .env files\n- .streamlit/secrets.toml
