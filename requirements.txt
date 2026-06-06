@@ -1,4 +1,3 @@
-streamlit\nopenai
 streamlit
 openai
 pandas
