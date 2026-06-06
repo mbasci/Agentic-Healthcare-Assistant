@@ -28,6 +28,19 @@ if not api_key:
     st.warning("Enter your OpenAI API key in the sidebar.")
     st.stop()
 
+with st.sidebar:
+    st.header("Configuration")
+
+    api_key = st.text_input(
+        "OpenAI API Key",
+        type="password",
+        help="Your key is used only during this session."
+    )
+
+if not api_key:
+    st.warning("Enter your OpenAI API key in the sidebar.")
+    st.stop()
+
 client = OpenAI(api_key=api_key)
 
 if "patients_db" not in st.session_state:
